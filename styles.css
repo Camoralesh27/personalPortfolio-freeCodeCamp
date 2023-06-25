@@ -16,9 +16,11 @@ html {
     --codigo: 'Fira Code', monospace;;
 
     /* Colores */
-    --texto: #FFFFFF;
+    --texto: #474747;
+    --texto-nav: #FFFFFF;
     --background: #d5d5d5;
-} 
+    --background-nav:  rgb(77, 95, 110);
+}  
 
 
 /* Globales */
@@ -30,7 +32,6 @@ body{
     line-height: 1.4;
     /* width: 100vw; */
     margin: 0 auto;
-    width: 90%;
   }
 
 
@@ -38,12 +39,54 @@ body{
 #navbar{
   position: fixed;
   top: 0;
+  background-color: var(--background-nav);
+  width: 100%;
+  height: 8rem;
 }
 
-body{
-  margin-top: 8rem;
+#navbar ul {
+    float: right;
+    list-style: none;
+    margin-right: 5rem;
 }
 
-@media(max-width:850px){
+#navbar ul li{
+    display: inline-block;
+    padding: 2.6rem 2rem;
+    font-size: 2rem;
+}
+
+#navbar a{
+    text-decoration: none;
+    color: var(--texto-nav);
+}
+
+
+/* Hero */
+#welcome-section{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(201, 202, 189);
+}
+
+#welcome-section h1{
+    font-size: 7rem;
+}
+#welcome-section p{
+    font-size: 3.5rem;
+    font-style: italic;
+    color: rgb(65, 154, 153);
+    font-weight: 100;
+}
+
+@media (max-width: 1023px){
   
+}
+
+@media (max-width: 767px){
+
 }
