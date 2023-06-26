@@ -242,15 +242,15 @@ footer{
     }
 
     #welcome-section{
-        height: 50vh;
+        height: 100vh;
     }
 
     #projects{
-        height: 70vh;
+        height: 80rem;
     }
 
     #contact{
-        height: 40vh;
+        height: 90vh;
     }
 
 }
@@ -279,7 +279,7 @@ footer{
     }
 
     #welcome-section{
-        height: 70vh;
+        height: 100vh;
         text-align: center;
     }
 
@@ -317,7 +317,6 @@ footer{
     .contact-links{
         display: flex;
         flex-direction: column;
-        
     }
 
     .contact-links a{
