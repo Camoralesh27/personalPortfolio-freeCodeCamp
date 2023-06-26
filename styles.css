@@ -94,14 +94,12 @@ body{
 #welcome-section p{
     font-size: 3.5rem;
     font-style: italic;
-    color: rgb(65, 154, 153);
+    color: rgb(19, 225, 225);
     font-weight: 100;
 }
 
 
 /** Proyects */
-
-
 #projects h2{
     /* text-decoration: underline; */
     border-bottom: solid 3px #474747;
@@ -117,42 +115,91 @@ body{
 .grid-items{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    height: 18rem;
     gap: 1rem;
-    margin: 0 auto;
+    margin: 0 auto 5rem auto;
     width: 90%;
+    margin-bottom: 13rem;
 }
 
 
-.grid-items .item {
-    width: 20rem;  
+.item{
+    width: 30rem;  
+    height: 25rem;
     justify-content: center;
+    background-color: #474747;
+    border-radius: 1rem;
+    margin: 0 auto;.
 }
 
 .grid-items img{
-    width: 10rem;
-    height: 10rem;
-    align-self: ;
+    width: 100%;
+    height: 20rem;
+    padding: 1.5rem;
+    border-radius: 2.4rem;
+    
 }
 
 .grid-items a{
     text-decoration: none;
     width: 100%;
-    
+    font-size: 1.7rem;
+    text-align: center;
+    line-height: 2.5rem;
+}
+
+.grid-items h3:hover{
+    color: rgb(19, 225, 225);
 }
 
 .grid-items h3{
     width: 100%;
     color: #FFFFFF;
+}
+
+/** Contact */
+#contact{
     background-color: #474747;
+    color: #d5d5d5;
+    text-align: center;
+    padding: 5rem 0 0 0;
+    height: 40rem;
+    line-height: 9rem;
+}
+#contact h2{
+    font-size: 7rem;
+    color: rgb(19, 225, 225);
+}
+
+#contact p{
+    font-size: 4rem;
+    font-style: italic;
+    padding-bottom: 5rem;
+    
+}
+
+.contact-details{
+    text-decoration: none;
+    color: #d5d5d5;
+    font-size: 3rem;
+    padding: 3rem;
+    cursor: pointer;
+}
+
+.contact-details:hover{
+    color: rgb(19, 225, 225);
+    
 }
 
 
-/** footer */
 
+
+/** footer */
 footer{
     text-align: center;
     padding: 3rem;
-    font-size: 2rem;
+    font-size: 1.7rem;
+    font-style: italic;
     background-color: #474747;
     color: #d5d5d5;
 }
